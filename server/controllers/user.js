@@ -9,7 +9,7 @@ const postSignup = async (req, res)=>{
         dob: new Date(dob)
     });
 
-    try{                                       //try to save th api and if their is in error so send it to the catch block which displays the exact error message.
+    try{    //try to save th api and if their is in error so send it to the catch block which displays the exact error message.
     const saveUser = await user.save()
 
     res.json({
