@@ -10,7 +10,7 @@ function Login() {
     const loginNow = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/login`, {
+            const response = await axios.post(${process.env.REACT_APP_BACKEND_URL}/login, {
                 email,
                 password,
             });
@@ -35,7 +35,7 @@ function Login() {
     return (
         <div>
             <h1 className='signup-login-heading'>USER LOGIN</h1>
-            <div className='signup-login-form' >
+            <div className='signup-login-form' style={{ backgroundColor: '#8EC5FC' }}>
                 <input
                     type='email'
                     placeholder='Email'
