@@ -46,28 +46,28 @@ function Signup() {
                 placeholder='Fullname' 
                 className='user-input'
                 value={user.name}
-                onChange={(e) => setUser({...user, name: e.target.value})}          //(...user means existing user ki info vaise hi rehnedo bss name change hona chahiye)
+                onChange={(e) => setUser({...user, name: e.target.value})}         
             />
             <input 
                 type='email' 
                 placeholder='Email' 
                 className='user-input'
                 value={user.email}
-                onChange={(e) => setUser({...user, email: e.target.value})}          //(...user means existing user ki info vaise hi rehnedo bss email change hona chahiye)
+                onChange={(e) => setUser({...user, email: e.target.value})}          
             />
             <input 
                 type='password' 
                 placeholder='Password' 
                 className='user-input'
                 value={user.password}
-                onChange={(e) => setUser({...user, password: e.target.value})}          //(...user means existing user ki info vaise hi rehnedo bss password change hona chahiye
+                onChange={(e) => setUser({...user, password: e.target.value})}         
             />
             <input 
                 type='date' 
                 placeholder='DOB' 
                 className='user-input'
                 value={user.dob}
-                onChange={(e) => setUser({...user, dob: e.target.value})}          //(...user means existing user ki info vaise hi rehnedo bss dob change hona chahiye
+                onChange={(e) => setUser({...user, dob: e.target.value})}          
             />
 
             <button type='button' className='btn-auth' onClick={signup}>

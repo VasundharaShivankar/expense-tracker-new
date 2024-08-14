@@ -1,0 +1,48 @@
+.user-input{
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.user-input:active, .user-input:focus{
+    outline: none;
+}
+body{
+    background-color: rgb(202, 235, 251);
+}
+.btn-auth{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 3px;
+}
+.btn-auth:hover{
+    background-color: #239627;
+}
+.signup-login-form{
+    width: 300px;
+    border: 2px solid rgb(141, 35, 136);
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/free-vector/pastel-color-watercolor-stain-background_52683-12281.jpg");
+}
+.signup-login-heading{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(141, 35, 136);
+    font-weight: bold;
+}
+.signup-login-link{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
